@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App::before {
+  content: '';
+  background: url('./images/1.jpg') no-repeat center center/cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.inp-field {
+  text-align: center;
+  padding: 1rem;
+}
+
+.inp-field input{
+  padding: 0.7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  border: 1px solid grey;
+  color: rgb(64, 25, 25);
+}
+
+.container {
+  margin-top: 10vh;
+}
+
+.city {
+  text-align: center;
+  font-style: oblique;
+  font-size: 3rem;
+  color:rgb(0, 0, 0);
+}
+
+.temp h1{
+  text-align: center;
+  color:rgb(0, 0, 0);
+  font-size: 7rem;
+}
+
+.desc p{
+  text-align: center;
+  color:rgb(0, 0, 0);
+  font-size: 2rem;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.footer {
+  margin: 30vh auto;
+  color:rgb(255, 255, 255);
+  background: gray;
+  border-radius: 20px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.feels p, .humidity p, .wind p {
+  text-align: center;
+  font-size: 1.35rem;
+}
